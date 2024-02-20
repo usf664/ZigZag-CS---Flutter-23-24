@@ -31,7 +31,7 @@ class _MyHomePageState extends State<MyHomePage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
               
-      Container(child: IntrinsicHeight(child: rowBaker(1),),decoration : BoxDecoration(border:Border.all(color: Colors.black,), )),
+      IntrinsicHeight(child: rowBaker(1),),
       
       Padding(
         padding: const EdgeInsets.symmetric(horizontal: 50,vertical: 20),
