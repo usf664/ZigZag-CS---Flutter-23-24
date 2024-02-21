@@ -37,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
         padding: const EdgeInsets.symmetric(horizontal: 50,vertical: 20),
         child: Divider(color: Colors.black , ),
       ),
-      IntrinsicHeight(child: rowBaker(1),),
+      IntrinsicHeight(child: rowBaker(2),),
       SizedBox(height: 50,),
       MaterialButton(
           onPressed: () {
